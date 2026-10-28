@@ -304,13 +304,8 @@ nav {
 
 .paper-awards {
   font-size: 0.82rem;
-  color: #8b5e00;
-  background: #fffbeb;
-  border: 1px solid #f0d060;
-  border-radius: 4px;
-  padding: 5px 10px;
-  margin-bottom: 10px;
-  display: inline-block;
+  color: var(--text-muted);
+  margin-bottom: 4px;
 }
 
 .paper-conferences {
