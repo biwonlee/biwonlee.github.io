@@ -123,7 +123,7 @@ nav {
 /* ===== Home Page ===== */
 .home-hero {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 210px 1fr;
   gap: 40px;
   align-items: start;
   padding: 48px 0 56px;
@@ -131,8 +131,8 @@ nav {
 }
 
 .home-photo {
-  width: 160px;
-  height: 200px;
+  width: 192px;
+  height: 240px;
   background: var(--bg-alt);
   border: 1px solid var(--border);
   border-radius: 4px;
