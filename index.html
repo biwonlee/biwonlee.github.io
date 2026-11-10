@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=7" />
+  <link rel="stylesheet" href="css/style.css?v=8" />
 </head>
 <body>
 
@@ -47,8 +47,16 @@
         <p class="bio">
           Welcome, I am a Ph.D. candidate in Finance at Arizona State University's W. P. Carey School of Business.
         </p>
+        <!-- Previous intro (muted for re-check)
         <p class="bio">
           My recent work examines how firms orient market strategies under uncertainty, how sell-side debt analysts value corporate bonds, and how the quality of labor–management relations, as part of corporate culture, is related to firm outcomes.
+        </p>
+        -->
+        <p class="bio">
+          My research starts from classic questions in corporate finance. I use unstructured data to revisit long-standing questions that have been difficult to answer with conventional data, with a particular interest in how firms make decisions and grow.
+        </p>
+        <p class="bio">
+          My work studies firms through the perspectives and interactions of people around them, from managers setting strategic direction, to employees working within the organization, to market participants evaluating firms from the outside.
         </p>
 
         <p class="interests-label">Research Interests</p>
@@ -68,6 +76,51 @@
           <a href="#">LinkedIn</a>
         </div>
       </div>
+    </section>
+
+    <!-- Working Papers (mirrors research.html) -->
+    <section class="home-section">
+      <h2>Working Papers</h2>
+      <ul class="paper-list">
+
+        <li class="paper-entry">
+          <div class="paper-title">Relational Capital Inside the Firm: Evidence from Bilateral Measurement</div>
+          <div class="paper-meta">
+            With <span class="coauthors">Sunwoo Hwang</span> &nbsp;·&nbsp;
+            <span class="journal">Working Paper</span>, February 2026
+          </div>
+          <div class="paper-awards">
+            Best Paper Award, Conference on Asia-Pacific Financial Markets 2023 and CERFAS 2023
+          </div>
+          <div class="paper-links">
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4345862" class="paper-link">[SSRN]</a>
+          </div>
+          <button class="abstract-toggle" aria-expanded="false">
+            ▾ <span class="toggle-label">Abstract</span>
+          </button>
+          <div class="abstract-body">
+            We study labor-management relational capital as a sub-component of corporate culture. Using matched employee-manager survey responses on key relational dimensions to measure an interpretation wedge between the two groups and the survey’s random-sampling design for identification, we find that establishments where employees view relations more favorably than managers subsequently achieve higher profitability, labor productivity, and employee retention. Neither employees’ nor managers’ assessments alone predict these outcomes. The predictive content resides in wedges in relational culture, not in gaps in formal policies or observed disputes, consistent with an interpretation-based theory of relational contracts.
+          </div>
+        </li>
+
+        <li class="paper-entry">
+          <div class="paper-title">Reasoning in Debt Valuation</div>
+          <div class="paper-meta">
+            <span class="coauthors">Biwon Lee</span> (solo-authored) &nbsp;·&nbsp;
+            <span class="journal">Working Paper</span>, November 2025
+          </div>
+          <div class="paper-links">
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5768322" class="paper-link">[SSRN]</a>
+          </div>
+          <button class="abstract-toggle" aria-expanded="false">
+            ▾ <span class="toggle-label">Abstract</span>
+          </button>
+          <div class="abstract-body">
+            Using sell-side debt reports on corporate bonds, I examine the underlying reasoning behind financial professionals’ debt valuations. By prompting large language models on 13,879 reports, I identify recommendation-related topics, their associated entities, valuation channels, and sentiment. The main findings indicate that (i) debt analysts' topic attention is primarily focused on balance sheet and income statement items. (ii) The attention exhibits time-varying patterns, with increasing attention to cash and declining attention to profitability during the global financial crisis. (iii) The reasoning analysts employ systematically differs across credit rating categories: discussions of investment-grade issuers emphasize credit ratings, whereas those of high-yield issuers focus on financial fundamentals. (iv) Lastly, quantifying the texts from reports into a vector space using an embedding model, I show that analysts' information can explain bond returns beyond traditional bond-related predictors.
+          </div>
+        </li>
+
+      </ul>
     </section>
 
     <!-- Recent News (muted for now)
